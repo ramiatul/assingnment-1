@@ -3,63 +3,101 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 }
-
-
-header{
-background:#FFFFFF;
-padding:20px 80px;
-}
 body{
 font-family:Arial, Helvetica, sans-serif;
 }
+header{
+background:white;
+padding:20px 80px;
+}
+
+
+      /* navigation */
 
 .navbar{
 display: flex;
 justify-content: space-between;
 align-items: center;
-height: 35px;
-padding: 0 35px;
+height: 40px;
+padding: 0 40px;
 }
 
-.image-logo{
+.logo{
 width:180px;
 }
 
 .nav-text{
 display:flex;
 align-items:center;
-gap:600px;
+gap:35px;
 }
 
 .nav-links{
 list-style:none;
 display:flex;
-gap:35px;
+gap:30px;
 }
 
 .nav-links a{
 text-decoration:none;
-color:#575757;
-font-size:20px;
+color:#333;
+font-size:17px;
 font-weight:500;
-
-}
-
-.common-button{
-background:#1D4ED8;
-color:white;
-border:none;
-padding:12px 30px;
-border-radius:8px;
-font-size:20px;
-cursor:pointer;
-
+transition:.3s;
 }
 
 .nav-links a:hover{
-color: #071c56;
+color:#0037ff;
+}
+
+.common-button{
+background:#2952e3;
+color:white;
+border:none;
+padding:12px 22px;
+border-radius:6px;
+font-size:25px;
+cursor:pointer;
+transition:.3s;
 }
 
 .common-button:hover{
-background: #011241;
+background:#1737b8;
+}
+
+          /* hero section css */
+
+.hero{
+background-image: url("./assets/banner.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;
+color: white;
+height: 100vh;
+display: flex;
+}
+.hero-content{
+text-align: center;
+color: #FFFFFF;
+width:900px;
+}
+.hero h1{
+font-size: 70px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.hero p{
+font-size: 20px;
+color: #FFFFFF;
+line-height: 1.6;
+margin-bottom: 300px;
+}
+.highlight-text{
+text-align: center;
+margin-top: 50px;
+font-size: 24px;
+font-weight: 600;
+
 }

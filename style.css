@@ -76,8 +76,8 @@ background-repeat: no-repeat;
 justify-content: center;
 align-items: center;
 color: white;
-height: 100vh;
 display: flex;
+height: 100vh;
 }
 .hero-content{
 text-align: center;
@@ -95,13 +95,9 @@ color: #FFFFFF;
 line-height: 1.6;
 margin-bottom: 300px;
 }
-.highlight-text{
-text-align: center;
-margin-top: 50px;
-font-size: 24px;
-font-weight: 600;
 
-}
+
+
    
         /* speaker css */
 
@@ -133,7 +129,7 @@ border-radius: 10px;
 
 }
 
-.speaker-r{
+.speaker-role{
 color: #2d56df;
 font-size: 16px;
 font-weight: bold;
@@ -155,6 +151,11 @@ display: block;
 .speaker-company-name{
 color: rgb(116, 114, 114);
 font-size: 16px;
+
+.section-title{
+text-align: center;
+margin-bottom: 50px;
+}
 }
 
 
@@ -216,9 +217,6 @@ color: rgb(128, 128, 128);
 margin-bottom: 20px;
 }
 
-.pricing-card hr{
-margin: 20px 0;
-}
 
 .pricing-card ul{
 padding-left: 20px;
@@ -227,6 +225,9 @@ margin-bottom: 30px;
 
 .pricing-card li{
 margin-bottom: 15px;
+}
+.pricing-card hr{
+margin: 22px 0;
 }
 
 
@@ -399,7 +400,7 @@ background: white;
 
 .footer {
     background-color: #0D1B2A;
-    padding: 30px 30px;
+    padding: 10px 30px;
     
 }
 .social-links a {
@@ -411,15 +412,12 @@ background: white;
     transition: color 0.3s;
 }
 
-.footer-top {
+.footer-tp {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
-
-
-
 .copyright {
     text-align: center;
     color: white;

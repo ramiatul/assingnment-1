@@ -403,9 +403,9 @@ background: white;
     padding: 10px 30px;
     
 }
-.social-links a {
+img {
     text-decoration: none;
-    color: white;
+    color: rgb(41, 111, 70);
     margin-left: 20px;
     font-size: 15px;
     font-weight: 500px;

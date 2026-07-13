@@ -23,7 +23,7 @@ padding: 40px 40px;
 }
 
 .logo{
-width:180px;
+width:100px;
 }
 
 .nav-text{
@@ -57,11 +57,11 @@ gap: 10px;
 background:#1D4ED8;
 color:white;
 border:none;
-padding:20px 26px;
+padding:10px 20px;
 border-radius:8px;
-font-size:30px;
+font-size:20px;
 cursor:pointer;
-transition:.3s;
+transition:.5s;
 
 }
 
